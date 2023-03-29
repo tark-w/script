@@ -6,4 +6,4 @@
     \/_/   \/_/\/_/   \/_/ /_/   \/_/\/_/   \/_/\/_/   \/_____/   \/_____/ 
                                                                            
 ]]--
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/tark-w/script/main/TarkHubV3'),true))()
+loadstring(game:HttpGet(('https://github.com/tark-w/script/blob/main/Protected.lua.txt'),true))()
