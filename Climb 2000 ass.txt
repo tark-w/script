@@ -20,7 +20,7 @@ MainSection:NewButton("Teleport To High Stair  ", "Teleports you to the pos", fu
     end)
 
 MainSection:NewButton("Teleport To Finish", "Teleports you to the pos", function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.6783130168914795, -4.500001430511475, 1.0104902982711792)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12.2418851852417, 2052.699951171875, -6.390079021453857)
     end)
 
 MainSection:NewButton("Teleport To Lucky Block ", "Teleports you to the pos", function()
@@ -33,8 +33,5 @@ MainSection:NewButton("Teleport To Obby ", "Teleports you to the pos", function(
 
 MainSection:NewButton("Teleport To Gamepass ", "Teleports you to the pos", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5.853976726531982, -4.500004768371582, 33.107696533203125)
-    end)
-
-    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
     end)
 end
