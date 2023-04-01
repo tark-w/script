@@ -1,0 +1,40 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Climb 2000 Stair For VIP", "Synapse")
+
+if game.PlaceId == 10129750406 then
+
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Credits to tark#6415")
+
+
+    MainSection:NewButton("Teleport To Spawn ", "Teleports you to the pos", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.6783130168914795, -4.500001430511475, 1.0104902982711792)
+    end)
+
+MainSection:NewButton("Teleport To Mid Stair ", "Teleports you to the pos", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-34.56772232055664, 545.596923828125, 30.13731575012207)
+    end)
+
+MainSection:NewButton("Teleport To High Stair  ", "Teleports you to the pos", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-34.02688980102539, 1789.500244140625, 29.371137619018555)
+    end)
+
+MainSection:NewButton("Teleport To Finish", "Teleports you to the pos", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.6783130168914795, -4.500001430511475, 1.0104902982711792)
+    end)
+
+MainSection:NewButton("Teleport To Lucky Block ", "Teleports you to the pos", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-42.953575134277344, 2069.498291015625, -34.3460578918457)
+    end)
+
+MainSection:NewButton("Teleport To Obby ", "Teleports you to the pos", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4.684450626373291, -4.500004768371582, -35.060951232910156)
+    end)
+
+MainSection:NewButton("Teleport To Gamepass ", "Teleports you to the pos", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5.853976726531982, -4.500004768371582, 33.107696533203125)
+    end)
+
+    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+end
